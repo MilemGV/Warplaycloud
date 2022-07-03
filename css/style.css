@@ -8,3 +8,31 @@ body{
     padding: 0px 10px;
     margin: 0 auto;
 }
+
+.header{
+    margin-bottom: 139px;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+.menu__list{
+    display: flex;
+}
+.menu__item + .menu__item{
+    margin-left: 46px;
+}
+.menu__link{
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 180%;
+    transition: all .3s;
+}
+.menu__link:hover{
+    color: #E7E1FF;
+    border-bottom: 1px solid #00C5FF;
+   
+}
