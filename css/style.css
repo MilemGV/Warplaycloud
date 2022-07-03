@@ -1,1 +1,10 @@
-/* font-family: 'Roboto', sans-serif; */
+body{
+    background-color: #141C24;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 1240px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
