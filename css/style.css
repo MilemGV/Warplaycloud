@@ -36,3 +36,44 @@ body{
     border-bottom: 1px solid #00C5FF;
    
 }
+.header__content{
+    margin-bottom: 154px;
+}
+.header__content-container{
+    max-width: 1347px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.slick-track{
+    display: flex;
+}
+.slick-list{
+    overflow: hidden;
+}
+.header__slider-item{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 777px;
+}
+.header__slider-text{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 25%
+}
+.header__slider-suptitle{
+    line-height: 19px;
+    font-weight: 500;
+}
+.header__slider-title{
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 97px;
+}
+.header__slider-btn{
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    padding: 19px 89px;
+}
